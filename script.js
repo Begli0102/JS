@@ -4,7 +4,7 @@ const diagonalOfsquare = num => {
   return Math.sqrt(2) * num
 }
 let result1 = diagonalOfsquare(9)
-console.log(result1)
+
 
 // Write a JavaScript program to find the area of a triangle where lengths of the three of its
 // sides are 5, 6 and 7
@@ -12,7 +12,7 @@ const areaOfTriangle = (num1, num2, num3) => {
   return (num1 + num2 + num3) / 2
 }
 let result2 = areaOfTriangle(5, 6, 7)
-console.log(result2)
+
 
 // Write a JavaScript program to find the circumference and surface area of a circle whose
 // radius is 4
@@ -21,7 +21,7 @@ const areaOfCircle = num => {
   return num * PI
 }
 let result3 = areaOfCircle(4)
-console.log(result3)
+
 
 // Write a JavaScript program that accepts two integers and displays the larger of the two.
 const twoIntegers = (a, b) => {
@@ -32,7 +32,7 @@ const twoIntegers = (a, b) => {
   }
 }
 
-console.log(twoIntegers(4, 5))
+
 
 // Write a JavaScript program that checks whether an integer is an even or an odd number.
 
@@ -43,7 +43,8 @@ const oddOrEven = int => {
     return 'It is odd'
   }
 }
-console.log(oddOrEven(5))
+
+
 // Assignment (Main JavaScript Project)
 let computerSelection = (computerPlay = () => {
   let arr = ['paper', 'rock', 'scissors']
@@ -53,7 +54,7 @@ let computerSelection = (computerPlay = () => {
 let playerSelection = prompt('Do you choose rock, paper or scissors?')
 
 const game = () => {
-  for (let i = 0; i <= 5; i++) {
+  for (let i = 0; i < 5; i++) {
     let compare = (playRound = (playerSelection, computerSelection) => {
       let choice = ['paper', 'rock', 'scissors']
 
